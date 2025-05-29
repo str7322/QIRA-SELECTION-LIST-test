@@ -1,7 +1,7 @@
 {
 	"Selections": {
-		"ErrorLocations": {
-			"ErrorLocation": [
+		"caused_bys": {
+			"caused_by": [
 				{
 					"_Value": "20000",
 					"_Active_Books": "0",
