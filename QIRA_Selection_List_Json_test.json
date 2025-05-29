@@ -1,178 +1,1418 @@
-// SELECTIONS
-// ErrorLocation
-[
-		"customfield_17700": {@Value: "20000", @Active_Books: "0", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Undefined"},
-		"customfield_17700": {@Value: "20028", @Active_Books: "1", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Accessibility"},
-		"customfield_17700": {@Value: "20001", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Article/chapter backmatter"},
-		"customfield_17700": {@Value: "20002", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Article/chapter body"},
-		"customfield_17700": {@Value: "20003", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Article/chapter header/metadata"},
-		"customfield_17700": {@Value: "20004", @Active_Books: "1", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Book metadata"},
-		"customfield_17700": {@Value: "20005", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Book/issue backmatter"},
-		"customfield_17700": {@Value: "20006", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Book/issue complete"},
-		"customfield_17700": {@Value: "20007", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Book/issue cover"},
-		"customfield_17700": {@Value: "20008", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Book/issue frontmatter"},
-		"customfield_17700": {@Value: "20009", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Book/issue structure"},
-		"customfield_17700": {@Value: "20027", @Active_Books: "1", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Content presentation"},
-		"customfield_17700": {@Value: "20026", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "DOI"},
-		"customfield_17700": {@Value: "20010", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Equations"},
-		"customfield_17700": {@Value: "20012", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Import full service vendor job"},
-		"customfield_17700": {@Value: "20013", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Import peer review system/manuscript job"},
-		"customfield_17700": {@Value: "20014", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "1", @Active_ServiceDesk: "1", @Name: "Interface between systems"},
-		"customfield_17700": {@Value: "20015", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Issue metadata"},
-		"customfield_17700": {@Value: "20016", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Jobsheet"},
-		"customfield_17700": {@Value: "20017", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Journal metadata"},
-		"customfield_17700": {@Value: "20018", @Active_Books: "0", @Active_Journals: "0", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "MFlux ContentStation"},
-		"customfield_17700": {@Value: "20019", @Active_Books: "0", @Active_Journals: "0", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "MFlux InCopy"},
-		"customfield_17700": {@Value: "20020", @Active_Books: "0", @Active_Journals: "0", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "MFlux InDesign"},
-		"customfield_17700": {@Value: "20021", @Active_Books: "0", @Active_Journals: "0", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "MFlux Journal/MagazineDesigner"},
-		"customfield_17700": {@Value: "20029", @Active_Books: "0", @Active_Journals: "0", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "MFlux Madmax ID"},
-		"customfield_17700": {@Value: "20022", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Offprint/poster"},
-		"customfield_17700": {@Value: "20023", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Open access"},
-		"customfield_17700": {@Value: "20024", @Active_Books: "1", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Series metadata"},
-		"customfield_17700": {@Value: "20011", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "SI/ESM"},
-		"customfield_17700": {@Value: "20025", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "1", @Active_ServiceDesk: "1", @Name: "System"}
-]
-// ErrorType
-[
-		"customfield_17704": {@Value: "20000", @Active_Books: "0", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Undefined"},
-		"customfield_17704": {@Value: "20026", @Active_Books: "1", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "ALT Text Tool problem"},
-		"customfield_17704": {@Value: "20001", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Article/issue/book missing"},
-		"customfield_17704": {@Value: "20002", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Attribute @Value incorrect"},
-		"customfield_17704": {@Value: "20003", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Author/editor correction belated"},
-		"customfield_17704": {@Value: "20004", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Contributor assignment incorrect"},
-		"customfield_17704": {@Value: "20005", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Conversion/tagging"},
-		"customfield_17704": {@Value: "20006", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Copyediting"},
-		"customfield_17704": {@Value: "20007", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Corrections not/incorrectly carried out"},
-		"customfield_17704": {@Value: "20008", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Delay"},
-		"customfield_17704": {@Value: "20009", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "ePub/HTML error"},
-		"customfield_17704": {@Value: "20010", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Figure processing"},
-		"customfield_17704": {@Value: "20025", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "1", @Active_ServiceDesk: "1", @Name: "General problem"},
-		"customfield_17704": {@Value: "20011", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Jobsheet error"},
-		"customfield_17704": {@Value: "20012", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Legal problem (copyright, plagiarism)"},
-		"customfield_17704": {@Value: "20013", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "PDF/print data error"},
-		"customfield_17704": {@Value: "20014", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Printing/Binding error"},
-		"customfield_17704": {@Value: "20015", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Procedures not followed"},
-		"customfield_17704": {@Value: "20016", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Proof configuration"},
-		"customfield_17704": {@Value: "20017", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Publication duplicate"},
-		"customfield_17704": {@Value: "20018", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Report problem"},
-		"customfield_17704": {@Value: "20019", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Stage 150 problem"},
-		"customfield_17704": {@Value: "20020", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Success/error log problem"},
-		"customfield_17704": {@Value: "20021", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Template problem"},
-		"customfield_17704": {@Value: "20022", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Typesetting mistake"},
-		"customfield_17704": {@Value: "20023", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Workflow/task problem"},
-		"customfield_17704": {@Value: "20024", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "XML/PDF discrepancy"}
-]
-// Originator
-[
-		"customfield_17696": {@Value: "20000", @Active_Books: "0", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Undefined"},
-		"customfield_17696": {@Value: "20001", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Author"},
-		"customfield_17696": {@Value: "20002", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "BoD"},
-		"customfield_17696": {@Value: "20004", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Editor"},
-		"customfield_17696": {@Value: "20005", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "1", @Active_ServiceDesk: "1", @Name: "External system"},
-		"customfield_17696": {@Value: "20029", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Integra"},
-		"customfield_17696": {@Value: "20027", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Kliemo"},
-		"customfield_17696": {@Value: "20006", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "le-tex"},
-		"customfield_17696": {@Value: "20007", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Lightning Source"},
-		"customfield_17696": {@Value: "20008", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Mercedes Druck"},
-		"customfield_17696": {@Value: "20030", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "MPS"},
-		"customfield_17696": {@Value: "20034", @Active_Books: "1", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Newgen"},
-		"customfield_17696": {@Value: "20009", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Obun"},
-		"customfield_17696": {@Value: "20010", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Printforce"},
-		"customfield_17696": {@Value: "20011", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Production Editor"},
-		"customfield_17696": {@Value: "20012", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Publisher's Graphics"},
-		"customfield_17696": {@Value: "20013", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Publishing Editor"},
-		"customfield_17696": {@Value: "20014", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Sheridan Books"},
-		"customfield_17696": {@Value: "20003", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "SN TPS (formerly Crest)"},
-		"customfield_17696": {@Value: "20015", @Active_Books: "1", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "SPi Books"},
-		"customfield_17696": {@Value: "20016", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "SPi Conversion"},
-		"customfield_17696": {@Value: "20017", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "SPi Journals"},
-		"customfield_17696": {@Value: "20031", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "SPi Journals (BMC)"},
-		"customfield_17696": {@Value: "20028", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "1", @Active_ServiceDesk: "1", @Name: "SpringerLink"},
-		"customfield_17696": {@Value: "20018", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "SPS"},
-		"customfield_17696": {@Value: "20033", @Active_Books: "1", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Straive"},
-		"customfield_17696": {@Value: "20019", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Strauss"},
-		"customfield_17696": {@Value: "20020", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Stürtz"},
-		"customfield_17696": {@Value: "20032", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Subject Matter Expert"},
-		"customfield_17696": {@Value: "20021", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "TenBrink"},
-		"customfield_17696": {@Value: "20022", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "The Sheridan Press"},
-		"customfield_17696": {@Value: "20023", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "1", @Active_ServiceDesk: "1", @Name: "Unknown"},
-		"customfield_17696": {@Value: "20024", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "VTEX"},
-		"customfield_17696": {@Value: "20025", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Workflow system"},
-		"customfield_17696": {@Value: "20026", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Workformedia"}
-]
-// ProductionSystem
-[
-		"customfield_17708": {@Value: "20000", @Active_Books: "0", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Undefined"},
-		"customfield_17708": {@Value: "20018", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "ACDC"},
-		"customfield_17708": {@Value: "20010", @Active_Books: "0", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "BFlow"},
-		"customfield_17708": {@Value: "20014", @Active_Books: "1", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "BFlux"},
-		"customfield_17708": {@Value: "20012", @Active_Books: "0", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "BMC XML Converter"},
-		"customfield_17708": {@Value: "20001", @Active_Books: "0", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "BWF"},
-		"customfield_17708": {@Value: "20002", @Active_Books: "0", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "BWF (Springer Reference)"},
-		"customfield_17708": {@Value: "20033", @Active_Books: "1", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "BookSubmarine"},
-		"customfield_17708": {@Value: "20034", @Active_Books: "1", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Book Leads"},
-		"customfield_17708": {@Value: "20019", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Conversion project"},
-		"customfield_17708": {@Value: "20011", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "e.Proofing"},
-		"customfield_17708": {@Value: "20024", @Active_Books: "0", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "1", @Active_ServiceDesk: "1", @Name: "EdFlux"},
-		"customfield_17708": {@Value: "20030", @Active_Books: "0", @Active_Journals: "0", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "EdiProM"},
-		"customfield_17708": {@Value: "20003", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "JFlow"},
-		"customfield_17708": {@Value: "20028", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "JFlow JOM"},
-		"customfield_17708": {@Value: "20020", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "JFlux"},
-		"customfield_17708": {@Value: "20023", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "JFlux (CAP)"},
-		"customfield_17708": {@Value: "20037", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "JIAS"},
-		"customfield_17708": {@Value: "20004", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "JWF"},
-		"customfield_17708": {@Value: "20005", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "JWF (CAP)"},
-		"customfield_17708": {@Value: "20025", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "JWF Hotfix"},
-		"customfield_17708": {@Value: "20031", @Active_Books: "0", @Active_Journals: "0", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Matchmaker"},
-		"customfield_17708": {@Value: "20013", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "1", @Active_ServiceDesk: "1", @Name: "MovingImageVideo"},
-		"customfield_17708": {@Value: "20026", @Active_Books: "0", @Active_Journals: "0", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "MFlux"},
-		"customfield_17708": {@Value: "20006", @Active_Books: "0", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "MWF"},
-		"customfield_17708": {@Value: "20035", @Active_Books: "1", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "MyBookSubmission"},
-		"customfield_17708": {@Value: "20027", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Nature Runlist Tool"},
-		"customfield_17708": {@Value: "20007", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "1", @Active_ServiceDesk: "1", @Name: "No workflow system"},
-		"customfield_17708": {@Value: "20017", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Palgrave Macmillan old"},
-		"customfield_17708": {@Value: "20016", @Active_Books: "0", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "PicScout"},
-		"customfield_17708": {@Value: "20036", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Springer Nature Proof Editor"},
-		"customfield_17708": {@Value: "20032", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Submarine"},
-		"customfield_17708": {@Value: "20015", @Active_Books: "0", @Active_Journals: "0", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "TopicPlan"},
-		"customfield_17708": {@Value: "20029", @Active_Books: "0", @Active_Journals: "0", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "WoodWing Assets"},
-		"customfield_17708": {@Value: "20021", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "xJFlux"},
-		"customfield_17708": {@Value: "20022", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "xJFLux (CAP)"},
-		"customfield_17708": {@Value: "20008", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "xJWF"},
-		"customfield_17708": {@Value: "20009", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "xJWF (CAP)"}
-]
-// PublicationStatus
-[
-		"customfield_17712": {@Value: "20004", @Active_Books: "1", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "In submission"},
-		"customfield_17712": {@Value: "20003", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "In peer review"},
-		"customfield_17712": {@Value: "20002", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "1", @Active_ServiceDesk: "1", @Name: "In planning"},
-		"customfield_17712": {@Value: "20000", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "1", @Active_ServiceDesk: "1", @Name: "In production"},
-		"customfield_17712": {@Value: "20001", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "1", @Active_ServiceDesk: "1", @Name: "Published"}
-]
-// ReporterPriority
-[
-		"priority": {@Value: "0", @Active_Books: "0", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Undefined"},
-		"priority": {@Value: "3", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "1", @Active_ServiceDesk: "1", @Name: "High"},
-		"priority": {@Value: "1", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "1", @Active_ServiceDesk: "1", @Name: "Low"},
-		"priority": {@Value: "2", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "1", @Active_ServiceDesk: "1", @Name: "Middle"},
-		"priority": {@Value: "20000", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "_FAZ"},
-		"priority": {@Value: "20001", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "_Nature"},
-		"priority": {@Value: "20002", @Active_Books: "1", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "_LNCS"}
-]
-// RequestedAction
-[
-		"customfield_17717": {@Value: "20000", @Active_Books: "0", @Active_Journals: "0", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Undefined"},
-		"customfield_17717": {@Value: "20001", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Alias"},
-		"customfield_17717": {@Value: "20002", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "1", @Active_ServiceDesk: "1", @Name: "Delete object from system"},
-		"customfield_17717": {@Value: "20003", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Erratum"},
-		"customfield_17717": {@Value: "20010", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "1", @Active_ServiceDesk: "1", @Name: "None (for information only)"},
-		"customfield_17717": {@Value: "20004", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Print update"},
-		"customfield_17717": {@Value: "20005", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "0", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Reset workflow"},
-		"customfield_17717": {@Value: "20006", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "1", @Active_ServiceDesk: "1", @Name: "Resolve error"},
-		"customfield_17717": {@Value: "20007", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Retraction"},
-		"customfield_17717": {@Value: "20011", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "1", @Active_ServiceDesk: "1", @Name: "Service Request"},
-		"customfield_17717": {@Value: "20013", @Active_Books: "0", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Silent Update"},
-		"customfield_17717": {@Value: "20008", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Update"},
-		"customfield_17717": {@Value: "20012", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Update + Erratum"},
-		"customfield_17717": {@Value: "20009", @Active_Books: "1", @Active_Journals: "1", @Active_Magazines: "1", @Active_General: "0", @Active_ServiceDesk: "1", @Name: "Update metadata"}
-]
+{
+	"Selections": {
+		"ErrorLocations": {
+			"ErrorLocation": [
+				{
+					"_Value": "20000",
+					"_Active_Books": "0",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Undefined"
+				},
+				{
+					"_Value": "20028",
+					"_Active_Books": "1",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Accessibility"
+				},
+				{
+					"_Value": "20001",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Article/chapter backmatter"
+				},
+				{
+					"_Value": "20002",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Article/chapter body"
+				},
+				{
+					"_Value": "20003",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Article/chapter header/metadata"
+				},
+				{
+					"_Value": "20004",
+					"_Active_Books": "1",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Book metadata"
+				},
+				{
+					"_Value": "20005",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Book/issue backmatter"
+				},
+				{
+					"_Value": "20006",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Book/issue complete"
+				},
+				{
+					"_Value": "20007",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Book/issue cover"
+				},
+				{
+					"_Value": "20008",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Book/issue frontmatter"
+				},
+				{
+					"_Value": "20009",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Book/issue structure"
+				},
+				{
+					"_Value": "20027",
+					"_Active_Books": "1",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Content presentation"
+				},
+				{
+					"_Value": "20026",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "DOI"
+				},
+				{
+					"_Value": "20010",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Equations"
+				},
+				{
+					"_Value": "20012",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Import full service vendor job"
+				},
+				{
+					"_Value": "20013",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Import peer review system/manuscript job"
+				},
+				{
+					"_Value": "20014",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "1",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Interface between systems"
+				},
+				{
+					"_Value": "20015",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Issue metadata"
+				},
+				{
+					"_Value": "20016",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Jobsheet"
+				},
+				{
+					"_Value": "20017",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Journal metadata"
+				},
+				{
+					"_Value": "20018",
+					"_Active_Books": "0",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "MFlux ContentStation"
+				},
+				{
+					"_Value": "20019",
+					"_Active_Books": "0",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "MFlux InCopy"
+				},
+				{
+					"_Value": "20020",
+					"_Active_Books": "0",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "MFlux InDesign"
+				},
+				{
+					"_Value": "20021",
+					"_Active_Books": "0",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "MFlux Journal/MagazineDesigner"
+				},
+				{
+					"_Value": "20029",
+					"_Active_Books": "0",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "MFlux Madmax ID"
+				},
+				{
+					"_Value": "20022",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Offprint/poster"
+				},
+				{
+					"_Value": "20023",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Open access"
+				},
+				{
+					"_Value": "20024",
+					"_Active_Books": "1",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Series metadata"
+				},
+				{
+					"_Value": "20011",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "SI/ESM"
+				},
+				{
+					"_Value": "20025",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "1",
+					"_Active_ServiceDesk": "1",
+					"_Name": "System"
+				}
+			]
+		},
+		"ErrorTypes": {
+			"ErrorType": [
+				{
+					"_Value": "20000",
+					"_Active_Books": "0",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Undefined"
+				},
+				{
+					"_Value": "20026",
+					"_Active_Books": "1",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "ALT Text Tool problem"
+				},
+				{
+					"_Value": "20001",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Article/issue/book missing"
+				},
+				{
+					"_Value": "20002",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Attribute value incorrect"
+				},
+				{
+					"_Value": "20003",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Author/editor correction belated"
+				},
+				{
+					"_Value": "20004",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Contributor assignment incorrect"
+				},
+				{
+					"_Value": "20005",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Conversion/tagging"
+				},
+				{
+					"_Value": "20006",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Copyediting"
+				},
+				{
+					"_Value": "20007",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Corrections not/incorrectly carried out"
+				},
+				{
+					"_Value": "20008",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Delay"
+				},
+				{
+					"_Value": "20009",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "ePub/HTML error"
+				},
+				{
+					"_Value": "20010",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Figure processing"
+				},
+				{
+					"_Value": "20025",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "1",
+					"_Active_ServiceDesk": "1",
+					"_Name": "General problem"
+				},
+				{
+					"_Value": "20011",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Jobsheet error"
+				},
+				{
+					"_Value": "20012",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Legal problem (copyright, plagiarism)"
+				},
+				{
+					"_Value": "20013",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "PDF/print data error"
+				},
+				{
+					"_Value": "20014",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Printing/Binding error"
+				},
+				{
+					"_Value": "20015",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Procedures not followed"
+				},
+				{
+					"_Value": "20016",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Proof configuration"
+				},
+				{
+					"_Value": "20017",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Publication duplicate"
+				},
+				{
+					"_Value": "20018",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Report problem"
+				},
+				{
+					"_Value": "20019",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Stage 150 problem"
+				},
+				{
+					"_Value": "20020",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Success/error log problem"
+				},
+				{
+					"_Value": "20021",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Template problem"
+				},
+				{
+					"_Value": "20022",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Typesetting mistake"
+				},
+				{
+					"_Value": "20023",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Workflow/task problem"
+				},
+				{
+					"_Value": "20024",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "XML/PDF discrepancy"
+				}
+			]
+		},
+		"Originators": {
+			"Originator": [
+				{
+					"_Value": "20000",
+					"_Active_Books": "0",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Undefined"
+				},
+				{
+					"_Value": "20001",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Author"
+				},
+				{
+					"_Value": "20002",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "BoD"
+				},
+				{
+					"_Value": "20004",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Editor"
+				},
+				{
+					"_Value": "20005",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "1",
+					"_Active_ServiceDesk": "1",
+					"_Name": "External system"
+				},
+				{
+					"_Value": "20029",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Integra"
+				},
+				{
+					"_Value": "20027",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Kliemo"
+				},
+				{
+					"_Value": "20006",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "le-tex"
+				},
+				{
+					"_Value": "20007",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Lightning Source"
+				},
+				{
+					"_Value": "20008",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Mercedes Druck"
+				},
+				{
+					"_Value": "20030",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "MPS"
+				},
+				{
+					"_Value": "20009",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Obun"
+				},
+				{
+					"_Value": "20010",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Printforce"
+				},
+				{
+					"_Value": "20011",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Production Editor"
+				},
+				{
+					"_Value": "20012",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Publisher's Graphics"
+				},
+				{
+					"_Value": "20013",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Publishing Editor"
+				},
+				{
+					"_Value": "20014",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Sheridan Books"
+				},
+				{
+					"_Value": "20003",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "SN TPS (formerly Crest)"
+				},
+				{
+					"_Value": "20015",
+					"_Active_Books": "1",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "SPi Books"
+				},
+				{
+					"_Value": "20016",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "SPi Conversion"
+				},
+				{
+					"_Value": "20017",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "SPi Journals"
+				},
+				{
+					"_Value": "20031",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "SPi Journals (BMC)"
+				},
+				{
+					"_Value": "20028",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "1",
+					"_Active_ServiceDesk": "1",
+					"_Name": "SpringerLink"
+				},
+				{
+					"_Value": "20018",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "SPS"
+				},
+				{
+					"_Value": "20033",
+					"_Active_Books": "1",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Straive"
+				},
+				{
+					"_Value": "20019",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Strauss"
+				},
+				{
+					"_Value": "20020",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Stürtz"
+				},
+				{
+					"_Value": "20032",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Subject Matter Expert"
+				},
+				{
+					"_Value": "20021",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "TenBrink"
+				},
+				{
+					"_Value": "20022",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "The Sheridan Press"
+				},
+				{
+					"_Value": "20023",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "1",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Unknown"
+				},
+				{
+					"_Value": "20024",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "VTEX"
+				},
+				{
+					"_Value": "20025",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Workflow system"
+				},
+				{
+					"_Value": "20026",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Workformedia"
+				}
+			]
+		},
+		"ProductionSystems": {
+			"ProductionSystem": [
+				{
+					"_Value": "20000",
+					"_Active_Books": "0",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Undefined"
+				},
+				{
+					"_Value": "20018",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "ACDC"
+				},
+				{
+					"_Value": "20010",
+					"_Active_Books": "0",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "BFlow"
+				},
+				{
+					"_Value": "20014",
+					"_Active_Books": "1",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "BFlux"
+				},
+				{
+					"_Value": "20012",
+					"_Active_Books": "0",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "BMC XML Converter"
+				},
+				{
+					"_Value": "20001",
+					"_Active_Books": "0",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "BWF"
+				},
+				{
+					"_Value": "20002",
+					"_Active_Books": "0",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "BWF (Springer Reference)"
+				},
+				{
+					"_Value": "20033",
+					"_Active_Books": "1",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "BookSubmarine"
+				},
+				{
+					"_Value": "20034",
+					"_Active_Books": "1",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Book Leads"
+				},
+				{
+					"_Value": "20019",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Conversion project"
+				},
+				{
+					"_Value": "20011",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "e.Proofing"
+				},
+				{
+					"_Value": "20024",
+					"_Active_Books": "0",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "1",
+					"_Active_ServiceDesk": "1",
+					"_Name": "EdFlux"
+				},
+				{
+					"_Value": "20030",
+					"_Active_Books": "0",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "EdiProM"
+				},
+				{
+					"_Value": "20003",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "JFlow"
+				},
+				{
+					"_Value": "20028",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "JFlow JOM"
+				},
+				{
+					"_Value": "20020",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "JFlux"
+				},
+				{
+					"_Value": "20023",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "JFlux (CAP)"
+				},
+				{
+					"_Value": "20004",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "JWF"
+				},
+				{
+					"_Value": "20005",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "JWF (CAP)"
+				},
+				{
+					"_Value": "20025",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "JWF Hotfix"
+				},
+				{
+					"_Value": "20031",
+					"_Active_Books": "0",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Matchmaker"
+				},
+				{
+					"_Value": "20013",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "1",
+					"_Active_ServiceDesk": "1",
+					"_Name": "MovingImageVideo"
+				},
+				{
+					"_Value": "20026",
+					"_Active_Books": "0",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "MFlux"
+				},
+				{
+					"_Value": "20006",
+					"_Active_Books": "0",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "MWF"
+				},
+				{
+					"_Value": "20035",
+					"_Active_Books": "1",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "MyBookSubmission"
+				},
+				{
+					"_Value": "20027",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Nature Runlist Tool"
+				},
+				{
+					"_Value": "20007",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "1",
+					"_Active_ServiceDesk": "1",
+					"_Name": "No workflow system"
+				},
+				{
+					"_Value": "20017",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Palgrave Macmillan old"
+				},
+				{
+					"_Value": "20016",
+					"_Active_Books": "0",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "PicScout"
+				},
+				{
+					"_Value": "20036",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Springer Nature Proof Editor"
+				},
+				{
+					"_Value": "20032",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Submarine"
+				},
+				{
+					"_Value": "20015",
+					"_Active_Books": "0",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "TopicPlan"
+				},
+				{
+					"_Value": "20029",
+					"_Active_Books": "0",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "WoodWing Assets"
+				},
+				{
+					"_Value": "20021",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "xJFlux"
+				},
+				{
+					"_Value": "20022",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "xJFLux (CAP)"
+				},
+				{
+					"_Value": "20008",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "xJWF"
+				},
+				{
+					"_Value": "20009",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "xJWF (CAP)"
+				}
+			]
+		},
+		"PublicationStates": {
+			"PublicationStatus": [
+				{
+					"_Value": "20004",
+					"_Active_Books": "1",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "In submission"
+				},
+				{
+					"_Value": "20003",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "In peer review"
+				},
+				{
+					"_Value": "20002",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "1",
+					"_Active_ServiceDesk": "1",
+					"_Name": "In planning"
+				},
+				{
+					"_Value": "20000",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "1",
+					"_Active_ServiceDesk": "1",
+					"_Name": "In production"
+				},
+				{
+					"_Value": "20001",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "1",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Published"
+				}
+			]
+		},
+		"ReporterPriorities": {
+			"ReporterPriority": [
+				{
+					"_Value": "0",
+					"_Active_Books": "0",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Undefined"
+				},
+				{
+					"_Value": "3",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "1",
+					"_Active_ServiceDesk": "1",
+					"_Name": "High"
+				},
+				{
+					"_Value": "1",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "1",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Low"
+				},
+				{
+					"_Value": "2",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "1",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Middle"
+				},
+				{
+					"_Value": "20000",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "_FAZ"
+				},
+				{
+					"_Value": "20001",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "_Nature"
+				},
+				{
+					"_Value": "20002",
+					"_Active_Books": "1",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "_LNCS"
+				}
+			]
+		},
+		"RequestedActions": {
+			"RequestedAction": [
+				{
+					"_Value": "20000",
+					"_Active_Books": "0",
+					"_Active_Journals": "0",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Undefined"
+				},
+				{
+					"_Value": "20001",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Alias"
+				},
+				{
+					"_Value": "20002",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "1",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Delete object from system"
+				},
+				{
+					"_Value": "20003",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Erratum"
+				},
+				{
+					"_Value": "20010",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "1",
+					"_Active_ServiceDesk": "1",
+					"_Name": "None (for information only)"
+				},
+				{
+					"_Value": "20004",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Print update"
+				},
+				{
+					"_Value": "20005",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "0",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Reset workflow"
+				},
+				{
+					"_Value": "20006",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "1",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Resolve error"
+				},
+				{
+					"_Value": "20007",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Retraction"
+				},
+				{
+					"_Value": "20011",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "1",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Service Request"
+				},
+				{
+					"_Value": "20013",
+					"_Active_Books": "0",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Silent Update"
+				},
+				{
+					"_Value": "20008",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Update"
+				},
+				{
+					"_Value": "20012",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Update + Erratum"
+				},
+				{
+					"_Value": "20009",
+					"_Active_Books": "1",
+					"_Active_Journals": "1",
+					"_Active_Magazines": "1",
+					"_Active_General": "0",
+					"_Active_ServiceDesk": "1",
+					"_Name": "Update metadata"
+				}
+			]
+		}
+	}
+}
